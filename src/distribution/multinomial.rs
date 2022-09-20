@@ -1,3 +1,4 @@
+#![cfg(feature = "nalgebra")]
 use crate::distribution::Discrete;
 use crate::function::factorial;
 use crate::statistics::*;

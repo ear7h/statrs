@@ -1,12 +1,11 @@
+#![cfg(feature = "nalgebra")]
+
 use crate::distribution::Continuous;
 use crate::function::gamma;
 use crate::statistics::*;
 use crate::{prec, Result, StatsError};
 use nalgebra::DMatrix;
 use nalgebra::DVector;
-use nalgebra::{
-    base::allocator::Allocator, base::dimension::DimName, DefaultAllocator, Dim, DimMin, U1,
-};
 use rand::Rng;
 use std::f64;
 
